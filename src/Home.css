@@ -1,0 +1,91 @@
+
+/* slideshow */
+
+
+  
+  .slides {
+    display: flex;
+    transition: transform 2s ease;
+   
+  }
+  
+  .slides img{
+    width: 100%;
+    height: 800px;
+   
+  }
+  
+
+  /* after the images portion */
+  .first-head{
+    margin-top: 10%;
+  }
+  .head-heading{
+    font-size: 5rem;
+
+  }
+.head-para{
+    color: #666666;
+    font-size: 2.5rem;
+}
+
+/* yoga benifits */
+.first_section{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.first_section div{
+     width: 30%;
+     margin-top: 10%;
+     /* margin-bottom: 10%; */
+}
+
+.leftSection{
+   color: #666666;
+    width: 24px;
+   margin-top: 90px;
+   font-size: 1.5rem;
+   text-align: justify;
+}
+
+.rightSection{
+    width: 24px;
+}
+
+.rightSection img{
+    width: 600px;
+    height: 600px;
+    padding-top: 20px;
+    border: 0px solid;
+    border-radius: 0px;
+}
+
+.yoga-benifits-head{
+    margin-top: 15%;
+ font-size: 2.5rem;
+ color: black;
+}
+.yoga-benifits{
+    color: #666666;
+      margin-top: 10px;
+}
+
+/* join community */
+
+/* Section Styles */
+.second_section2 {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 70%;
+    text-align: center;
+    
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+
+    
+}
